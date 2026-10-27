@@ -5,6 +5,7 @@ converts Microsoft OneNote sections (`.one`), notebooks (`.onetoc2`) and package
 (`.onepkg`) to Markdown.
 
 ```sh
+brew trust wsmontes/onenote        # one-time, for any third-party tap
 brew install wsmontes/onenote/onenote2md
 onenote2md notebook "Open Notebook.onetoc2" -o out
 ```
