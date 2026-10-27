@@ -1,8 +1,8 @@
 name: Update formula
 
 on:
-  # The schedule is paused while GitHub Actions is unavailable on the maintainer
-  # account (billing lock); re-add `schedule: [{cron: "17 4 * * *"}]` then.
+  schedule:
+    - cron: "17 4 * * *"
   workflow_dispatch:
 
 permissions:
