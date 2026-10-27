@@ -2,7 +2,7 @@ class Onenote2md < Formula
   desc "Convert Microsoft OneNote files (.one, .onetoc2, .onepkg) to Markdown"
   homepage "https://github.com/wsmontes/one-note-converter"
   url "https://github.com/wsmontes/one-note-converter/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a99f256f11c8f445417257cd58c85b61daa44e2ecbe6a022989f35d886c9d0cb"
+  sha256 "a89660b4115863060664b420e0aaf05aa6110257ad7f8d3af7328678493aa117"
   license "MIT"
 
   depends_on "rust" => :build
