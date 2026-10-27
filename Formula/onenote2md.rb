@@ -9,7 +9,7 @@ class Onenote2md < Formula
 
   def install
     # The workspace also holds the Python bindings; this installs just the CLI.
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "install", "--locked", *std_cargo_args
   end
 
   test do
